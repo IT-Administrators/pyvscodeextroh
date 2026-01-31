@@ -13,6 +13,7 @@ class VSCodeExtensionManager:
 
     def _is_code_available(self):
         """Check if VSCode is installed."""
+
         try:
             subprocess.run([self.code_path, "--version"], capture_output=True)
             return True
@@ -21,6 +22,7 @@ class VSCodeExtensionManager:
 
     def _run(self, args):
         """Run VSCode cli commands."""
+
         cmd = [self.code_path] + args
         try:
             result = subprocess.run(
@@ -95,6 +97,7 @@ class VSCodePolicyManager:
 
     def enforce_policy(self):
         """Enforce policy. Uninstalls disallowed extensions."""
+        
         removed = []
 
         for ext in self.get_disallowed():

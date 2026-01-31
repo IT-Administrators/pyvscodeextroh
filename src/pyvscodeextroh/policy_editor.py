@@ -34,7 +34,8 @@ class PolicyEditor:
         return self.data["AllowedExtensions"]
     # Write to policy file.
     def save(self):
-        """Write to polciy file."""
+        """Write to policy file."""
+
         try:
             with open(self.policy_file, "w") as f:
                 json.dump(self.data, f, indent=2)
