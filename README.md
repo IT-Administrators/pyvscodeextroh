@@ -1,6 +1,10 @@
 <!-- toc:insertAfterHeading=pyvscodeextroh -->
 <!-- toc:insertAfterHeadingOffset=4 -->
-
+![PyPI - Version](https://img.shields.io/pypi/v/pyvscodeextroh)
+![GitHub License](https://img.shields.io/github/license/IT-Administrators/pyvscodeextroh)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/pyvscodeextroh)
+[![Publish PyPi](https://github.com/IT-Administrators/pyvscodeextroh/actions/workflows/release.yaml/badge.svg?branch=main)](https://github.com/IT-Administrators/pyvscodeextroh/actions/workflows/release.yaml)
+[![CI](https://github.com/IT-Administrators/pyvscodeextroh/actions/workflows/ci.yaml/badge.svg)](https://github.com/IT-Administrators/pyvscodeextroh/actions/workflows/ci.yaml)
 
 # pyvscodeextroh
 
